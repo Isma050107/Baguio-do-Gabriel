@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>equilibrio de forças</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <div>
+        <h1> calculadora de lançamento obliquio</h1>
+         <form action="#" method="post" id="formulario">
+            <label for="velocidadeinicial">velocidade inicial (m/s)</label>
+            <input type="number" name="angulo" id="angulo">
+
+            <div>
+                <label for="angulo">ângulo (°)</label>
+                <input type="number" name="angulo" id="angulo">
+            </div>
+
+            <div>
+                <label for="posiçaõinicialhorizontal">posiçaõ inicial horizontal (m)</label>
+                <input type="number" name="x0" id="posiçaõinicialhorizontal">
+            </div>
+
+            <div>
+                <label for="posicaoinicialvertical">Posição Inicial Vertical (m)</label>
+                <input type="number" name="x0" id="posicaoinicialvertical">
+                </div>
+                <div>
+                    <label for="tempo">Tempo (s)</label>
+                    <input type="number" name="t" id="tempo">
+                </div>
+                <button type="button" id="calcular">Calcule</button>
+            
+            </form>
+    
+                <div>
+                    <h2>Resultados</h2>
+                    <p id="resultadohorizontal"></p>
+                    <p id="resultadovertical"></p>
+                </div>
+         </form>
+    </div>
+</body>
+</html>
